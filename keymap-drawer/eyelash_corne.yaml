@@ -91,7 +91,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - END
   - PG DN
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '0', s: )}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - INS
@@ -184,11 +184,11 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - OUT BLE
-  - {t: '$$mdi:arrow-left-bold$$', h: toggle}
+  - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
-  - {t: '$$mdi:arrow-right-bold$$', h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-right-bold$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
