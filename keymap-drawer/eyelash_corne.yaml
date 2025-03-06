@@ -42,7 +42,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
-  - {t: LEFT WIN, h: SYMBOL}
+  - '&td1'
   - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
@@ -140,11 +140,11 @@ layers:
   - '}'
   - '|'
   - '~'
-  - {t: '$$mdi:apple-keyboard-option$$', type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - '&studio_unlock'
@@ -165,13 +165,13 @@ layers:
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - OUT USB
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB SPI
+  - RGB SPD
+  - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F12
@@ -183,10 +183,10 @@ layers:
   - RGB BRD
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - RGB SPI
-  - RGB SPD
-  - '&bl BL_TOG'
-  - '&bl BL_CYCLE'
+  - OUT BLE
+  - {t: '$$mdi:arrow-left-bold$$', h: toggle}
+  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:arrow-right-bold$$', h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
