@@ -49,7 +49,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - $$mdi:keyboard-esc$$
   NUMBER:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-tab-reverse$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
