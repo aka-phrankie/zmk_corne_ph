@@ -1,7 +1,7 @@
 # 使用说明
 
 
-本仓库 Fork自睫毛外设 (Eyelash Peripherals) Corne ZMK 仓库，只对按键做了个性化的修改，[改键网站](https://nickcoutsos.github.io/keymap-editor/) 。
+本仓库 Fork自睫毛外设 (Eyelash Peripherals) Corne ZMK 仓库，~~只~~对按键做了个性化的修改，去除了背光配置和设置睡眠时间为 5 min。[改键网站](https://nickcoutsos.github.io/keymap-editor/) 。
 
 - 常规层
 
