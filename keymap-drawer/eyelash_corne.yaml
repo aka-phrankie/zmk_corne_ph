@@ -173,8 +173,8 @@ layers:
   - RGB SPD
   - RGB SPI
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&bl BL_TOG'
+  - '&bl BL_CYCLE'
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB TOG
